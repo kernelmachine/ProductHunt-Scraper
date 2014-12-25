@@ -9,6 +9,6 @@ $ pip install bs4
 
 Then, run the code like so: 
 
-import producthunt
+>> import producthunt
 
-producthunt.ProductHunt().todays_products()
+>> producthunt.ProductHunt().todays_products()
