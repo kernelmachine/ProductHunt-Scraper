@@ -1,6 +1,9 @@
 from bs4 import BeautifulSoup
 import requests
 
+## methods in class return a dict with products, descriptions, upvotes, and links of todays new products on ProductHunt.
+## requires BeautifulSoup, install via commandline with pip install bs4
+
 class ProductHunt():
 
 	def parse_html(self,url):
